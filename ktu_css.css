@@ -1,0 +1,203 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+  background-color: rgb(247, 247, 247) !important;
+}
+.nav{	
+  margin: -1px;
+	border-bottom: 3px solid rgb(99, 99, 192);
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  line-height:40px;
+  height: 45px;
+  color: rgb(131, 101, 179);
+  background-color: #c3e0fc !important;
+ 
+}
+.nav-tr{
+  padding: 0px 0px 0px 19px;
+  list-style-type: none;
+  overflow: hidden;
+  float: left;
+  height: 45px;
+  margin: 0px;
+}
+.home{
+  display: block;
+  width: 100%;
+  background-color: rgb(148, 173, 243);
+  color: rgb(255, 255, 255);
+ 
+}
+td a {
+  display: inline-block;
+  width: 100%;
+  color: black;
+  font-size: 13px;
+  text-align: center;
+  padding: 0px 5px;
+  text-decoration: none;  
+}
+
+td a:hover {   
+  color: rgb(165, 159, 159);  
+  text-decoration: none;
+  display: block;
+}  
+.t1{
+  width: 72%;
+  border-collapse: collapse;
+  margin: 45px 10px 10px 15px;
+  position: relative;
+  float: left;
+  display: block;
+  background-color: white;
+}
+.t2{
+  border: 1px solid;
+  font-size: 25px;
+  display: inline-block;
+  width: 100%;
+  line-height: 52px;
+  background-color: rgb(142, 142, 196);
+  color: white;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.t3{
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 4px 4px 0px 0px ;
+}
+.t3:hover{
+  background-color: rgb(247, 247, 247);
+}
+.t3:active{
+  background-color: rgb(247, 247, 247);
+}
+#h1{
+  color: #3ab0e2;
+  display: inline-block;
+  line-height: 65px;
+  padding-left: 0px;
+}
+#h2{
+  color: #5cb85c;
+  display: inline-block;
+  line-height: 65px;
+  padding-left: 0px;
+}
+#h3{
+  color: #ffcc00;
+  display: inline-block;
+  line-height: 65px;
+  padding-left: 0px;
+}
+.login-icon {
+  border: 3px solid #3ab0e2;
+  border-radius: 50%;
+  color: #3ab0e2;
+  display: inline-block;
+  font-size: 40px;
+  padding: 12px;
+  position: relative;
+  transition: all 0.2s ease-in-out 0s;
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ins{
+  display: inline-block;
+  width: 90%;
+  margin-left: 38px;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+.login-top{
+  width: 24%;
+  position: relative;
+  background-color: white;
+  float: right;
+  display: block;
+  border: 1px solid rgb(111, 172, 245) ;
+  border-radius: 4px;
+  margin: 38px 15px 0px 11px;
+}
+#sign{
+  display: block; 
+  background-color: rgb(111, 172, 245);
+  padding: 12px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+
+}
+.login-body{
+  display: block;
+  padding: 15px;
+}
+.form-login{
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 10px;
+  
+}
+.control-login{
+  font-size: 13px;
+  font-weight: normal;
+  vertical-align: middle;
+  margin-top: 0;
+  margin-bottom: 0;
+  color:#71a0dd;
+  
+}
+.form-control{
+  margin-top:5px;
+  margin-bottom:10px;
+  color:#737373;
+  box-sizing: border-box;
+  font-size: 15px;
+  height: auto;
+  padding: 6px;
+  position: relative;
+  background-color:#f2dede
+}
+.form-submit{
+  display: block;
+  width: 100%;
+  height:35px;
+  cursor: pointer;
+  color:#fff;
+  background-color:#5cb85c;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+#forgot-password{
+  font-size: 11px;
+}
+.footer{
+  font-size: 13px;
+  padding: 3px 15px 0px 0px;
+  float: left;
+  display: block;
+  background-color: rgb(4, 119, 164);
+  bottom: 0px;
+  line-height: 32px;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
